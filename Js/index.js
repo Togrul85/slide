@@ -23,7 +23,7 @@ document.addEventListener("click",(e)=>{
     
     if(e.target.classList.contains("popup")){
         console.log(e.target);
-        popup.style.display=none;
+        popup.style.display="none";
 
     }
 });
